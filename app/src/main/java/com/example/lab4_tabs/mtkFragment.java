@@ -27,7 +27,7 @@ public class mtkFragment extends Fragment {
     int cNumber = (((fNumber - 32)*5)/9);
 
     public void convertBClick(View v) {
-        TextView t = (TextView) findViewById(R.id.celcius3);
+        TextView t = (TextView) findViewById(R.id.celcius);
         t.setText(cNumber);
     }
 
